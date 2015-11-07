@@ -16,6 +16,8 @@ public class Drone
     long distanceFromSounthBoundary;
     long distanceFromNorthBoundary;
     char currentlyHeading;
+    long distanceToDo;
+    int turnCounter;
     
     public Drone()
     {
