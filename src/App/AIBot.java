@@ -13,6 +13,8 @@ package App;
 
 public class AIBot 
 {
+    int activityPoints;
+    
     public AIBot()
     {
         

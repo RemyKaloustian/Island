@@ -11,6 +11,12 @@ package App;
 
 public class Drone 
 {
+    long distanceFromWestBoundary;
+    long distanceFromEastBoundary;
+    long distanceFromSounthBoundary;
+    long distanceFromNorthBoundary;
+    char currentlyHeading;
+    
     public Drone()
     {
         
