@@ -1,8 +1,11 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+*
+*Author : Rémy Kaloustian
+*Date : 7/11/15
+*GitHub: https://github.com/RemyKaloustian/Island.git
+*
+*/
+
 package App;
 
 /**
@@ -14,7 +17,7 @@ public class Main
     
     public static void main (String args[])
     {
-        System.out.println("Initializing repo");
+        System.out.println("Initializing ");
     }
     
 }
