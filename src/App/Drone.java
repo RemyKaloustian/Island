@@ -18,6 +18,7 @@ public class Drone
     char currentlyHeading;
     long distanceToDo;
     int turnCounter;
+    char turnDirection;
     
     public Drone()
     {
