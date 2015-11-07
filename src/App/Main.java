@@ -8,6 +8,8 @@
 
 package App;
 
+import org.json.simple.parser.ParseException;
+
 /**
  *
  * @author Rémy Kaloustian
@@ -15,9 +17,12 @@ package App;
 public class Main 
 {
     
-    public static void main (String args[])
+    public static void main (String args[]) throws ParseException
     {
         System.out.println("Initializing ");
+        
+        JSONInterpreter inter =  new JSONInterpreter();
+        inter.TestInterpreter();
     }
     
 }
