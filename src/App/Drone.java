@@ -11,6 +11,11 @@ package App;
 
 public class Drone 
 {
+    public Drone()
+    {
+        
+    }//Drone()
+    
     public String fly()
     {
         return "{\"action\" : \"fly\"}";
