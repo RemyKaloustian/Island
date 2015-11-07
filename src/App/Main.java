@@ -3,8 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
-//https://github.com/RemyKaloustian/Island.git
 package App;
 
 /**
@@ -14,9 +12,9 @@ package App;
 public class Main 
 {
     
-    public static void main(String args[])
+    public static void main (String args[])
     {
-        System.out.println("Initializing");
+        System.out.println("Initializing repo");
     }
     
 }
