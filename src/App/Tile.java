@@ -7,7 +7,17 @@
  * 
  * 
  */
-package App;
+
+
+
+
+
+/**
+ * Tiles are the atomic elements in the map.
+ * A tile contains a collection of ressources unordered in a Map
+ * x and y are the position of the tile in the map.
+ * z is the altitude.
+ */
 
 import java.util.HashMap;
 import java.util.Map;
@@ -15,7 +25,9 @@ import java.util.Map;
 
 public class Tile 
 {
-    public Map<String,String> resources; 
+    private Map<String,String> resources;
+    private int x, y;
+    private float z; // initialised once we have the info about altitude
     
     public Tile()
     {
